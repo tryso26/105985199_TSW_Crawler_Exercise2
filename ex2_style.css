@@ -70,7 +70,7 @@ html {
   margin: 0 auto;
 }
 .modalcontentslayout .profile2 .picture img{
-  max-width: 100%; /*調整圖片寬度 (測試後%依據容器大小而非圖檔大小)*/
+  max-width: 100%; /* 調整圖片寬度 (測試後%依據容器大小而非圖檔大小) */
   height: auto;
 }
 .modalcontentslayout .profile2 .block{
