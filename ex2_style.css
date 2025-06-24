@@ -2,15 +2,19 @@ html {
     height: 100%;
     width: 100%;
   }
-  a:visited{
+  /* a:visited{
   color:white;
-  }
-  .modal__wrapper {
+  } */
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+  /* .modal__wrapper {
     position: relative;
-    width: 100vw;  /* 設置整個容器寬度 */
-    height: 100vh; /* 設置整個容器高度 */
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
-  }
+    } */
   .modal__background {
     position: absolute;
     top: 0;
