@@ -8,3 +8,9 @@
 4. css參數排版微調:
   (1) .snslist li 圖示微放大 .snslist gap 間距稍微拉寬
   (2) .modalcontentslayout 補上 margin: 0 auto; 置中 (幾乎沒變動)
+
+======================
+版本1.02 <2025.06.24>
+======================
+1. 移除.modal__content中的 position: relative; 重複定義而且與top: 50% 、 left: 50% 與 transform: translate(-50%, -50%) 的定位相衝突。
+2. 註釋化 class="modal__wrapper" (設計給彈出式視窗的包裹層)，修正了原本的白框問題，並將CSS中 a:visited 與 .modal__wrapper 都註釋化。
