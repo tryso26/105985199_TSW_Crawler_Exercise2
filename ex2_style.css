@@ -26,7 +26,6 @@ html {
   background-repeat: no-repeat;
   background-size: calc(927/750*100vw*1) calc(533/750*100vw*1);
   background-position: calc(-125/750*100vw) calc(-90/750*100vw);
-  position: relative;
   width: 92%;
   max-width: 113rem;
   max-height: 90vh;
